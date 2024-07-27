@@ -1,0 +1,17 @@
+a{
+    position: relative;
+    padding-bottom: 5px;
+}
+a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background-color: #A1613B;
+    height: 2px;
+}
+a:hover::after{
+    width: 100%;
+    transition: 1s;
+}
