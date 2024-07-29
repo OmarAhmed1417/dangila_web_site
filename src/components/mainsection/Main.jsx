@@ -12,7 +12,7 @@ const Main = () => {
         </div>
         {/* for first word in paragraph */}
         <div className="mainline ">
-          <h5 className='text-brown_color'>Natural Inner Beauty</h5>
+          <h5 className='text-brown_color font-bold'>Natural Inner Beauty</h5>
         </div>
 
         {/* paragraph  */}
