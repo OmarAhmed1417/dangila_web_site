@@ -10,7 +10,8 @@ module.exports = {
         'black_color': '#505050',
         'brown_color':"#A1613B",
         'title':'#505050',
-        'Customers':'#f8e6cb'
+        'Customers':'#f8e6cb',
+        'Product':'#E7E8D8',
       },
     },
   },

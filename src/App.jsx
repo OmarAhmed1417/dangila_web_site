@@ -4,6 +4,9 @@ import Main from './components/mainsection/Main';
 import ReactDOM from 'react-dom';
 import Customers from './components/Customers/Customer';
 import Why from './components/Why_dangila/Why';
+import About from './components/About_section/About';
+import Proudcts from './components/Prouducts/Prouducts';
+import Slides from './components/Slide/Slide';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         <Main/>
         <Customers/>
         <Why/>
+        <About/>
+        <Proudcts/>
+        <Slides/>
     </>
   );
 }
