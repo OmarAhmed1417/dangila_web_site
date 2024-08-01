@@ -12,3 +12,28 @@ button{
 .main{
     height: 600px;
 }
+@media (max-width: 480px){
+    .text {
+        padding: 12px;
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 14px;
+    }
+    .main {
+        height: 600px;
+        flex-direction: column;
+    }
+    .photo{
+        display: contents;
+    }
+    .text-9xl{
+        font-size: 40px;
+    }
+    
+}

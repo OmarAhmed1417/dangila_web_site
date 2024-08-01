@@ -10,3 +10,13 @@
 .About{
     border-top:2px solid #A1613B;
 }
+@media (max-width: 480px){
+    .about {
+        font-size: 13px;
+        width: 244px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+    }
+}

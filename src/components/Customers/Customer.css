@@ -1,3 +1,14 @@
 /* *{
     background-color: #f8e6cb;
 } */
+@media (max-width: 480px){
+    .flex{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .space-x-48 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0rem* var(--tw-space-x-reverse));
+        margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
+    }
+}

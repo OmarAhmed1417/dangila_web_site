@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import './Customer.css'
 const Customers = () => {
 
     let ref=useRef(null);
@@ -120,7 +121,7 @@ const Customers = () => {
     return ( 
 
         <>
-        <div className='bg-Customers flex justify-center space-x-48 text-center p-4'>
+        <div className='customers bg-Customers flex justify-center space-x-48 text-center p-4'>
         <div className="cutomer"> 
             <div className="number">
                 <p className='text-brown_color text-3xl font-bold' ref={ref}> 0 </p>

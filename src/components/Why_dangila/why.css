@@ -1,0 +1,13 @@
+@media (max-width: 480px){
+    .title{
+        font-size: 30px;
+    }
+    .text_your{
+        font-size: 15px;
+        text-align:justify;
+        width: 250px;
+    }
+    .answer p{
+        width: 14rem;
+    }
+}

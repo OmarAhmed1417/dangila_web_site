@@ -15,5 +15,10 @@
     width: 100%;
     transition: 1s;
 }
+@media (max-width: 480px){
+    header{
+        display: none;
+    }
+}
 
 
