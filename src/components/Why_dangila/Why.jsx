@@ -15,9 +15,13 @@ const Why = () => {
         </div>
         <div className="answer flex gap-72  justify-center items-center text-center mt-7 ">
             <div className="natural  flex flex-col justify-center items-center text-center ">
-                <div className="icon ">
-                <FontAwesomeIcon icon={faHandHoldingHeart}  className='text-4xl text-brown_color'/>
-                <h4 className='text-black font-bold  text-1xl  '>Natural</h4>
+                <div className="icon flex flex-col ">
+                    <div>
+                        <FontAwesomeIcon icon={faHandHoldingHeart}  className='text-4xl text-brown_color'/>
+                    </div>
+                    <div>
+                <h4 className='text-black font-bold  text-1xl '>Natural</h4>
+                    </div>
                 </div>
                 <div className="text text-base pt-2 text-center flex  items-center ">
                     <p className='w-64 '>Yourself requierd no at thoughts  delicate landlord it be.</p>
@@ -25,10 +29,13 @@ const Why = () => {
             </div>
 
             <div className="natural flex flex-col justify-center items-center text-center  ">
-                <div className="icon ">
+                <div className="icon flex flex-col ">
+                    <div>
                 <FontAwesomeIcon icon={faSprayCanSparkles}  className='text-4xl text-brown_color'/>
-                <h4 className='text-black font-bold  text-1xl '>Spring Smell</h4>
-
+                    </div>
+                    <div className='w-44'>
+                <h4 className='text-black font-bold  text-1xl  '>Spring Smell</h4>
+                    </div>
                 </div>
                 <div className="text text-base pt-2  text-center flex  items-center">
                     <p className='w-64'>Yourself requierd no at thoughts delicate landlord it be.</p>
@@ -37,7 +44,7 @@ const Why = () => {
 
 
             <div className="natural flex flex-col justify-center items-center  ">
-                <div className="icon ">
+                <div className="icon flex flex-col ">
                 <FontAwesomeIcon icon={faMedal}  className='text-4xl text-brown_color'/>
                 <h4 className='text-black font-bold  text-1xl '>Acheives</h4>
                 

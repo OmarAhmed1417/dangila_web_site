@@ -1,8 +1,8 @@
-a{
+.link{
     position: relative;
     padding-bottom: 5px;
 }
-a::after{
+.link::after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -11,7 +11,7 @@ a::after{
     background-color: #A1613B;
     height: 2px;
 }
-a:hover::after{
+.link:hover::after{
     width: 100%;
     transition: 1s;
 }

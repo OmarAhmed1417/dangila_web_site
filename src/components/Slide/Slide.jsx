@@ -37,11 +37,11 @@ const Slides = () => {
     >
 
       <SwiperSlide>
-       <div className="persone bg-white p-5">
+      <div className="persone bg-brown_color text-white p-5">
         <div className="imgeper flex justify-center text-center">
             <img src={person} alt="Person" loading='lazy' width={80} height={80} style={{borderRadius:'50%'}} className='p-2'/>
         </div>
-        <div className="information text-center text-gray-500">
+        <div className="information text-center">
             <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do
 is whatever it. Farther be chapter at visited married in it pressed. By distrusts
 procuring be oh frankness existence believing instantly if. Doubtful on an juvenile
@@ -52,11 +52,11 @@ as of servants insisted.</p>
 
 
       <SwiperSlide>
-      <div className="persone bg-white p-5">
+      <div className="persone bg-brown_color text-white p-5">
         <div className="imgeper flex justify-center text-center">
             <img src={person} alt="Person" loading='lazy' width={80} height={80} style={{borderRadius:'50%'}} className='p-2'/>
         </div>
-        <div className="information text-center text-gray-500">
+        <div className="information text-center">
             <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do
 is whatever it. Farther be chapter at visited married in it pressed. By distrusts
 procuring be oh frankness existence believing instantly if. Doubtful on an juvenile
@@ -65,11 +65,11 @@ as of servants insisted.</p>
        </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="persone bg-white p-5">
+      <div className="persone bg-brown_color text-white p-5">
         <div className="imgeper flex justify-center text-center">
             <img src={person} alt="Person" loading='lazy' width={80} height={80} style={{borderRadius:'50%'}} className='p-2'/>
         </div>
-        <div className="information text-center text-gray-500">
+        <div className="information text-center">
             <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do
 is whatever it. Farther be chapter at visited married in it pressed. By distrusts
 procuring be oh frankness existence believing instantly if. Doubtful on an juvenile
@@ -78,11 +78,11 @@ as of servants insisted.</p>
        </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="persone bg-white p-5">
+      <div className="persone bg-brown_color text-white p-5">
         <div className="imgeper flex justify-center text-center">
             <img src={person} alt="Person" loading='lazy' width={80} height={80} style={{borderRadius:'50%'}} className='p-2'/>
         </div>
-        <div className="information text-center text-gray-500">
+        <div className="information text-center">
             <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do
 is whatever it. Farther be chapter at visited married in it pressed. By distrusts
 procuring be oh frankness existence believing instantly if. Doubtful on an juvenile
@@ -91,11 +91,11 @@ as of servants insisted.</p>
        </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="persone bg-white p-5">
+      <div className="persone bg-brown_color text-white p-5">
         <div className="imgeper flex justify-center text-center">
             <img src={person} alt="Person" loading='lazy' width={80} height={80} style={{borderRadius:'50%'}} className='p-2'/>
         </div>
-        <div className="information text-center text-gray-500">
+        <div className="information text-center">
             <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do
 is whatever it. Farther be chapter at visited married in it pressed. By distrusts
 procuring be oh frankness existence believing instantly if. Doubtful on an juvenile

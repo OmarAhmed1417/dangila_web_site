@@ -5,9 +5,9 @@ import './Proudct.css'
 const Proudcts = () => {
     return ( 
         <>
-        <div className="product bg-Product mt-8 p-4">
+        <div className="product bg-Product mt-6 p-4">
             <h2 className='text-brown_color text-4xl text-center'>OUR PRODUCTS</h2>
-    <div className="icons flex justify-around items-center text-center mt-10 pt-11">
+    <div className="icons flex justify-around items-center text-center mt-6 pt-11">
         <div className="first ">
             <div className="icon">
             <FontAwesomeIcon icon={faExplosion} className='text-2xl text-brown_color' />
@@ -19,7 +19,7 @@ const Proudcts = () => {
 
         <div className="second">
             <div className="icon">
-            <FontAwesomeIcon icon={faDollarSign} className='text-2xl text-brown_color' />
+            <FontAwesomeIcon icon={faDollarSign} className='text-3xl text-brown_color' />
             </div>
             <div className="texticon">
                 <h3 className='text-lg font-bold pt-3'>Cost</h3>
