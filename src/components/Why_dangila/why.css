@@ -2,10 +2,10 @@
     .title{
         font-size: 30px;
     }
-    .text_your{
-        font-size: 15px;
-        text-align:justify;
-        width: 250px;
+    .text_your {
+        font-size: 18px;
+        text-align: center;
+        width: 273px;
     }
     .answer p{
         width: 14rem;

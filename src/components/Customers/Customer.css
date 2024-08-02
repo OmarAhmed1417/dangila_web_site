@@ -11,4 +11,11 @@
         margin-right: calc(0rem* var(--tw-space-x-reverse));
         margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
     }
+    .customers {
+        margin-top: 25px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

@@ -19,4 +19,8 @@
         display: flex;
         flex-direction: row;
     }
+    .answer p {
+        width: 200px;
+        text-align: center;
+    }
 }
