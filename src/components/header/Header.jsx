@@ -71,7 +71,7 @@ const Header = () => {
        
         <div className='flex flex-col text-center'>
 
-        <button onClick={() => login()}>       
+        <button onClick={() => login()} className='for'>       
            <FontAwesomeIcon icon={faUser}  className='text-black_color pl-3'  />
         </button>
         <div>
@@ -105,7 +105,7 @@ const Header = () => {
        
         <div className='flex flex-col text-center'>
 
-        <button onClick={() => login()}>       
+        <button onClick={() => login()} className='for'>       
            <FontAwesomeIcon icon={faUser}  className='text-black_color pl-3'  />
         </button>
         <div>
