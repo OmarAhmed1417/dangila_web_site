@@ -1,3 +1,14 @@
 .footer{
     background-color: rgb(238, 218, 193);
 }
+@media (max-width: 480px){
+
+.iconsfooter {
+    display: flex;
+    flex-direction: row;
+}
+.info , .textfooter ,.textfooter2{
+    border-bottom: 1px solid #A1613B;
+    padding: 10px;
+}
+}

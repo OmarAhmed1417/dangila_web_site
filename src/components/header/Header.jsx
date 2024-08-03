@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {   useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTrash, faUser, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars,  faUser, faXmark } from '@fortawesome/free-solid-svg-icons'
 import './style/main.css';
 import { BrowserRouter as Router, Link,  } from 'react-router-dom';
 import { useGoogleLogin } from '@react-oauth/google';
@@ -23,6 +23,8 @@ const Header = () => {
     onError: () => console.log('Login Failed'),
   });
 
+
+
   let click=()=>{
     if(open===true){
       ref.current.style.transform = 'translateX(100%)';
@@ -35,6 +37,14 @@ const Header = () => {
       setopen(true);
     }
   }
+
+
+
+
+
+
+
+  
     return ( 
         <>
 
@@ -58,9 +68,7 @@ const Header = () => {
         
         <div className="icons flex space-x-9">
         
-        <Link>
-        <FontAwesomeIcon icon={faTrash}  className='text-black_color pl-3'/>
-        </Link>
+       
         <div className='flex flex-col text-center'>
 
         <button onClick={() => login()}>       
@@ -83,7 +91,7 @@ const Header = () => {
           <div>
         <b className="text-2xl font-bold text-title">dangila</b>
           </div>
-          <div>
+          <div className='bar'>
           <FontAwesomeIcon icon={faBars} onClick={click} />
           </div>
       <div className="last"  ref={ref} onClick={click}>
