@@ -15,15 +15,15 @@ const Footer = () => {
             <Router>
             <div className="iconsfooter flex gap-8">
             <div>
-            <Link to='https://www.facebook.com/profile.php?id=100028334143840&locale=ar_AR'>
+            <a href='https://www.facebook.com/profile.php?id=100028334143840&locale=ar_AR'>
             <FontAwesomeIcon icon={faFacebook} className='text-2xl text-orange-900' />
-            </Link>
+            </a>
             </div>
             <div>
-            <Link to='https://wa.me/201062610800'>
+            <a href='https://wa.me/201062610800'>
             
             <FontAwesomeIcon icon={faWhatsapp} className='text-2xl text-orange-900'/>
-            </Link>
+            </a>
             </div>
             </div>
             </Router>
