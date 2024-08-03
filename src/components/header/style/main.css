@@ -78,6 +78,64 @@
 }
 }
 
+@media (min-width: 481px) and (max-width: 992px){
+    .links{
+        display: none;
+    }
+    .link2{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+    }
+    .link2 .last{ 
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 100dvh;
+        background-color: #DDC0AE;
+        padding: 10px;
+        position: absolute;
+        position: fixed;
+        right: 0px;
+        top:  0px;
+        gap: 40px;
+        z-index: 100;
+        padding-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateX(100%);
+    }
+     ul{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        justify-content: space-around;
+    
+    }
+    .link2 .icons{
+        display: flex;
+        justify-content: space-around;
+    }
+    .space-x-9 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0rem* var(--tw-space-x-reverse));
+        margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
+    }
+    .space-x-96 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0rem* var(--tw-space-x-reverse));
+        margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
+    }
+    
+    .exit{
+        font-size: 16px;
+    }
+    .bar{
+        font-size: 17px;
+    }
+}
 body{
     overflow-x: hidden;
 }

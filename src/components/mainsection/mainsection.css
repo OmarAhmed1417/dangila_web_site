@@ -35,5 +35,61 @@ button{
     .text-9xl{
         font-size: 40px;
     }
-    
+ 
+}
+
+@media (min-width: 481px) and (max-width: 992px){
+   
+    .text {
+        padding: 12px;
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 14px;
+    }
+    .main {
+        height: 700px;
+        flex-direction: column;
+    }
+    .photo{
+        display: contents;
+        width: 320px;
+    }
+    .text-9xl{
+        font-size: 40px;
+    }
+   
+   
+}
+@media (min-width: 993px) and (max-width: 1562px) {
+    .text {
+        padding: 12px;
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 14px;
+    }
+    .main {
+        height: 600px;
+    }
+    .photo{
+        display: contents;
+    }
+    .text-9xl{
+        font-size: 40px;
+    }
+    .photo img
+    {
+        width: 320px;
+    }
 }

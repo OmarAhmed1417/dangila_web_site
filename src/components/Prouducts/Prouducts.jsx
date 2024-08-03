@@ -48,7 +48,7 @@ const Proudcts = () => {
 
     return ( 
         <>
-        <div className="product bg-Product mt-6 p-4">
+        <div className="product bg-Product mt-6 p-9">
             <h2 className='text-brown_color text-4xl text-center'>OUR PRODUCTS</h2>
     <div className="icons flex justify-around items-center text-center mt-6 pt-11">
         <div className="first " ref={(el) => (sectionsRef.current[0] = el)}    style={{

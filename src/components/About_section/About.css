@@ -24,3 +24,18 @@
         text-align: center;
     }
 }
+
+@media (min-width: 481px) and (max-width: 992px){
+    .about {
+        font-size: 13px;
+        width: 244px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+    }
+    .answer p {
+        width: 200px;
+        text-align: center;
+    }
+}

@@ -19,3 +19,21 @@
         gap: 20px;
     }
 }
+@media (min-width: 481px) and (max-width: 992px){
+    .flex{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .space-x-48 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0rem* var(--tw-space-x-reverse));
+        margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
+    }
+    .customers {
+        margin-top: 25px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

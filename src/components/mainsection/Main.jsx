@@ -5,17 +5,18 @@ import { gsap } from 'gsap';
 const Main = () => {
 
   const sectionsRef = useRef([]);
+ 
 
   useEffect(() => {
     const sections = sectionsRef.current;
-
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            gsap.to(entry.target, { opacity: 1, y: 0, duration: 1 });
+            gsap.to(entry.target, { opacity: 1, x: 0, duration: 2 });
           } else {
-            gsap.to(entry.target, { opacity: 0, y: 100, duration: 1 });
+            gsap.to(entry.target, { opacity: 0, x: -10, duration: 2 });
           }
         });
       },
@@ -47,7 +48,7 @@ const Main = () => {
       <div className="main bg-main_color w-full pt-9 flex space-x-80 items-center justify-center ">
       <div className="text" ref={(el) => (sectionsRef.current[0] = el)}    style={{
             opacity: 0,
-            transform: 'translateY(10px)',
+            transform: 'translatX(-10px)',
           
           }}>
 
@@ -71,12 +72,11 @@ const Main = () => {
         </div>
       </div>
  
-      <div className="photo" ref={(el) => (sectionsRef.current[1] = el)}  style={{
+      <div className="photo" >
+        <img src={photo} alt="Logo" loading='lazy'  width={500} height={'auto'} ref={(el) => (sectionsRef.current[1] = el)}  style={{
             opacity: 0,
-            transform: 'translateY(10px)',
-          
-          }}>
-        <img src={photo} alt="Logo" loading='lazy'  width={500} height={'auto'}/>
+          transform: 'translatX(-10px)'
+          }}/>
       </div>
     </div>
     

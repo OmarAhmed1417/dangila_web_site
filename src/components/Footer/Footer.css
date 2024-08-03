@@ -13,3 +13,13 @@
 }
 
 }
+@media (min-width: 481px) and (max-width: 992px){
+    .iconsfooter {
+        display: flex;
+        flex-direction: row;
+    }
+    .info , .textfooter ,.textfooter2{
+        border-bottom: 1px solid #A1613B;
+        padding: 10px;
+    }
+}

@@ -11,3 +11,26 @@
         width: 14rem;
     }
 }
+@media (min-width: 481px) and (max-width: 992px){
+    .title{
+        font-size: 30px;
+    }
+    .text_your {
+        font-size: 18px;
+        text-align: center;
+        width: 273px;
+    }
+    .answer p{
+        width: 14rem;
+    }
+}
+@media (min-width: 993px) and (max-width: 1562px) {
+    .answer{
+        gap: 20px;
+    }
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
