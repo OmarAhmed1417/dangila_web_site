@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch,  } from 'react-router-dom';
 import Header from './components/header/Header';
 import Main from './components/mainsection/Main';
 import Customers from './components/Customers/Customer';
@@ -13,7 +13,9 @@ import Apper from './components/Surces/Apper';
 
 function App() {
   return (
-    <Router>
+    <>
+    <Header/>
+<Router>
 
       <Switch>
         <Route exact path="/" component={Apper} /> {/* This route might not be needed if Apper is a layout */}
@@ -28,6 +30,7 @@ function App() {
       </Switch>
        {/* Footer can be included here or as a layout component */}
     </Router>
+  </>
   );
 }
 

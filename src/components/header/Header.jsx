@@ -58,11 +58,11 @@ const Header = () => {
 
         <nav>
           <ul className="flex space-x-9">
-            <li><Link  to="/products" className="text-1xl font-semibold text-black link  p-1">Product</Link></li>
-            <li><Link  to="/customers" className="text-1xl font-semibold text-black link p-1">Story</Link></li>
-            <li><Link  to="/why" className="text-1xl font-semibold text-black link p-1">Manufacturing</Link></li>
-            <li><Link  to="/about" className="text-1xl font-semibold text-black link p-1">packaging</Link></li>
-            <li><Link  to="/slides" className="text-1xl font-semibold text-black link p-1">Team</Link></li>
+            <li><a  href="/products" className="text-1xl font-semibold text-black link  p-1">Product</a></li>
+            <li><a  href="/customers" className="text-1xl font-semibold text-black link p-1">Story</a></li>
+            <li><a  href="/why" className="text-1xl font-semibold text-black link p-1">Manufacturing</a></li>
+            <li><a  href="/about" className="text-1xl font-semibold text-black link p-1">packaging</a></li>
+            <li><a  href="/slides" className="text-1xl font-semibold text-black link p-1">Team</a></li>
           </ul>
         </nav>
         
@@ -116,11 +116,11 @@ const Header = () => {
         </div>
         <nav>
           <ul className=" space-x-9">
-            <li><Link  to="/products" className="text-1xl font-semibold text-black link  p-1">Product</Link></li>
-            <li><Link  to="/why" className="text-1xl font-semibold text-black link p-1">Story</Link></li>
-            <li><Link  to="/about" className="text-1xl font-semibold text-black link p-1">Manufacturing</Link></li>
-            <li><Link  to="/customers" className="text-1xl font-semibold text-black link p-1">packaging</Link></li>
-            <li><Link  to="/slides" className="text-1xl font-semibold text-black link p-1">Team</Link></li>
+            <li><a  href="/products" className="text-1xl font-semibold text-black link  p-1">Product</a></li>
+            <li><a  href="/why" className="text-1xl font-semibold text-black link p-1">Story</a></li>
+            <li><a  href="/about" className="text-1xl font-semibold text-black link p-1">Manufacturing</a></li>
+            <li><a  href="/customers" className="text-1xl font-semibold text-black link p-1">packaging</a></li>
+            <li><a  href="/slides" className="text-1xl font-semibold text-black link p-1">Team</a></li>
           </ul>
         </nav>
         

@@ -10,7 +10,7 @@ import Proudcts from '../Prouducts/Prouducts';
 const Apper = () => {
     return (  
         <>
-        <Header/>
+        {/* <Header/> */}
         <Main/>
         <Customers/>
         <Why/>

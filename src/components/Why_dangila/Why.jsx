@@ -49,7 +49,7 @@ const Why = () => {
             <div className="title text-brown_color text-4xl font-bold">
                 <h2>WHY DANGILA ?</h2>
             </div>
-            <div className="text_your text-center">
+            <div className="text_your text-center w-96">
                 <p>Yourself requierd no at thoughts delicate landlord it be. Branched dashwood do  
                 is whatever it . Farther be Chapter Father be chapter at visted maried in pressed</p>
             </div>
