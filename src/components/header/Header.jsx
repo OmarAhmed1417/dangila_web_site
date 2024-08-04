@@ -1,8 +1,8 @@
 import React, {   useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars,  faUser, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars,  faRightToBracket,   faXmark } from '@fortawesome/free-solid-svg-icons'
 import './style/main.css';
-import { BrowserRouter as Router, Link,  } from 'react-router-dom';
+import { BrowserRouter as Router,  } from 'react-router-dom';
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 
@@ -72,7 +72,8 @@ const Header = () => {
         <div className='flex flex-col text-center'>
 
         <button onClick={() => login()} className='for' name='btn'>       
-           <FontAwesomeIcon icon={faUser}  className='text-black_color pl-3'  />
+        <FontAwesomeIcon icon={faRightToBracket}   className='text-black_color pl-3'  />
+
         </button>
         <div>
         {userInfo && <h5 className='text-brown_color font-bold pl-2'>Hello {(userInfo.name)}</h5>}
@@ -106,7 +107,7 @@ const Header = () => {
         <div className='flex flex-col text-center'>
 
         <button onClick={() => login()} className='for' name='btn'>       
-           <FontAwesomeIcon icon={faUser}  className='text-black_color pl-3'  />
+        <FontAwesomeIcon icon={faRightToBracket}   className='text-black_color pl-3'  />
         </button>
         <div>
         {userInfo && <h5 className='text-black font-bold pl-2'>Hello {(userInfo.name)} </h5>}
