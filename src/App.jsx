@@ -121,7 +121,7 @@ function App() {
                   </div>
                 </div>
                 <nav>
-                  <ul className="space-x-8">
+                  <ul className="space-x-4">
                     <li><Link to="/" className="text-1xl font-semibold text-black link p-1">Page</Link></li>
                     <li><Link to="/products" className="text-1xl font-semibold text-black link p-1">Benefit</Link></li>
                     <li><Link to="/why" className="text-1xl font-semibold text-black link p-1">Story</Link></li>
