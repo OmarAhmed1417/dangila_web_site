@@ -3,8 +3,6 @@ import { useDispatch } from 'react-redux';
 import axios from 'axios';
 import { addToCart, decrementCount } from '../Cards/cartSlice ';
 import './styleproduct/Productlist.css'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import CartPage from '../Cards/CartPage';
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
