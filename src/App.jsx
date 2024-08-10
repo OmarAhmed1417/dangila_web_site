@@ -111,7 +111,7 @@ function App() {
                         <button onClick={logout} className='for' name='btn'>
                         <FontAwesomeIcon icon={faRightToBracket} className='text-black_color text-xl' style={{ transform: 'rotate(180deg)' }} />
                         </button>
-                        <h5 className='text-gray-900 font-bold pl-2'>Welcome  {userInfo.name}</h5>
+                        <h5 className='text-gray-700 font-bold pl-2'>Welcome  {userInfo.name}</h5>
                       </>
                     ) : (
                       <button onClick={() => login()} className='for' name='btn'>

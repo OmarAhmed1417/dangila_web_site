@@ -15,7 +15,7 @@
       "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
     },
     { "id": 3,
-      "name": "Product 3",
+      "name": "Gold Perfiom",
       "price": 120,
       "img":"/imgejson/img3.webp",
       "count":0,
@@ -23,7 +23,7 @@
 
     },
     { "id": 4,
-      "name": "Product 4",
+      "name": "Star Perfiom",
       "price": 130,
       "img":"/imgejson/img4.webp",
       "count":0,
@@ -32,14 +32,14 @@
     },
     {
       "id": 5, 
-      "name": " Perfiom Dangila", 
+      "name": " Black  Dangila", 
       "price": 40 ,
       "img":"/imgejson/img5.webp",
       "count":0,
       "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
      },
      { "id": 6,
-     "name": "Delight Perfiom",
+     "name": "Cold Perfiom",
      "price": 50,
      "img":"/imgejson/img6.webp",
      "count":0 ,

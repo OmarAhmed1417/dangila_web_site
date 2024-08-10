@@ -1,11 +1,7 @@
 import React, {   useRef, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars,  faRightToBracket,   faXmark } from '@fortawesome/free-solid-svg-icons'
 import './style/main.css';
-import { BrowserRouter as Router,  } from 'react-router-dom';
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Header = () => {
   const [userInfo, setUserInfo] = useState(null);
