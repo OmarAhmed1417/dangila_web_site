@@ -5,6 +5,7 @@ import './style/main.css';
 import { BrowserRouter as Router,  } from 'react-router-dom';
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Header = () => {
   const [userInfo, setUserInfo] = useState(null);
@@ -48,7 +49,7 @@ const Header = () => {
     return ( 
         <>
 
-    <header className=" bg-main_color p-4 ">
+    {/* <header className=" bg-main_color p-4 ">
         <div className="links container mx-auto flex justify-between items-center  ">
           <div>
         <b className="text-2xl font-bold text-title">dangila</b>
@@ -63,6 +64,9 @@ const Header = () => {
             <li><a  href="/why" className="text-1xl font-semibold text-black link p-1">Manufacturing</a></li>
             <li><a  href="/about" className="text-1xl font-semibold text-black link p-1">packaging</a></li>
             <li><a  href="/slides" className="text-1xl font-semibold text-black link p-1">Team</a></li>
+              <li><a href="/product">Products</a></li>
+              <li><a href="/cart">Cart</a></li>
+            
           </ul>
         </nav>
         
@@ -131,7 +135,7 @@ const Header = () => {
 
       </div>
     </header>
-  
+   */}
         </>
      );
 }

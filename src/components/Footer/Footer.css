@@ -1,5 +1,6 @@
 .footer{
     background-color: rgb(238, 218, 193);
+    gap: 22rem;
 }
 @media (max-width: 480px){
 
@@ -11,6 +12,9 @@
     border-bottom: 1px solid #A1613B;
     padding: 10px;
 }
+.footer{
+    gap: 0;
+}
 
 }
 @media (min-width: 481px) and (max-width: 992px){
@@ -21,5 +25,8 @@
     .info , .textfooter ,.textfooter2{
         border-bottom: 1px solid #A1613B;
         padding: 10px;
+    }
+    .footer{
+        gap: 0;
     }
 }

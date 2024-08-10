@@ -1,0 +1,50 @@
+[
+    {
+       "id": 1, 
+       "name": " Perfiom Dangila", 
+       "price": 40 ,
+       "img":"/imgejson/img1.webp",
+       "count":0,
+       "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+      },
+      { "id": 2,
+      "name": "Delight Perfiom",
+      "price": 50,
+      "img":"/imgejson/img2.webp",
+      "count":0 ,
+      "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+    },
+    { "id": 3,
+      "name": "Product 3",
+      "price": 120,
+      "img":"/imgejson/img3.webp",
+      "count":0,
+      "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+
+    },
+    { "id": 4,
+      "name": "Product 4",
+      "price": 130,
+      "img":"/imgejson/img4.webp",
+      "count":0,
+      "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+
+    },
+    {
+      "id": 5, 
+      "name": " Perfiom Dangila", 
+      "price": 40 ,
+      "img":"/imgejson/img5.webp",
+      "count":0,
+      "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+     },
+     { "id": 6,
+     "name": "Delight Perfiom",
+     "price": 50,
+     "img":"/imgejson/img6.webp",
+     "count":0 ,
+     "desciption":"Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven"
+   }
+  
+  ]
+  

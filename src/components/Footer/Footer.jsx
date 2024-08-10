@@ -2,11 +2,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import './Footer.css'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 const Footer = () => {
     return ( 
         <>
-        <div className="footer w-full flex justify-around  p-9 mt-16 text-gray-800 font-medium">
+        <div className="footer w-full flex justify-center  p-9 mt-16 text-gray-800 font-medium">
             <div className="info flex flex-col gap-8">
                 <div className="paragraph w-52">
                 <p>Learn To Love Growth And Change

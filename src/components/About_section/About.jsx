@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../../imges/About image .png'
+import photo from '../../imges/About image .webp'
 import './About.css'
 const About = () => {
     return ( 
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about_img">
-                <img src={photo} alt="Perfiom" loading='lazy' width={400} height={'auto'}  />
+                <img src={photo} alt="Perfiom" loading='lazy' width={"400"} height={'auto'}  />
             </div>
         </div>
         </>

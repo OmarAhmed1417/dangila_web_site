@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import photo from '../../imges/Header.png';
+import photo from '../../imges/Header-removebg-preview.webp';
 import './mainsection.css'
 import { gsap } from 'gsap';
 const Main = () => {
@@ -45,7 +45,7 @@ const Main = () => {
 
 
     return (  <>
-      <div className="main bg-main_color w-full pt-9 flex space-x-80 items-center justify-center ">
+      <div className="main bg-main_color w-full pt-9 flex   items-center justify-center pl-7 pr-7">
       <div className="text" ref={(el) => (sectionsRef.current[0] = el)}    style={{
             opacity: 0,
             transform: 'translatX(-10px)',
@@ -63,7 +63,7 @@ const Main = () => {
 
         {/* paragraph  */}
 
-        <div className="paragraph">
+        <div className="paragraph ">
 
           <h5>Provide deluxe hydration for those with dry or age-related skin concerns. They add intense moisture to dehydrated or mature skin, alleviating uneven, sun-damaged textures to promote natural radiance.</h5>
         </div>
@@ -73,7 +73,7 @@ const Main = () => {
       </div>
  
       <div className="photo" >
-        <img src={photo} alt="Logo" loading='lazy'  width={500} height={'auto'} ref={(el) => (sectionsRef.current[1] = el)}  style={{
+        <img src={photo} alt="Logo" loading='lazy'  width={600} height={'auto'} ref={(el) => (sectionsRef.current[1] = el)}  style={{
             opacity: 0,
           transform: 'translatX(-10px)'
           }}/>

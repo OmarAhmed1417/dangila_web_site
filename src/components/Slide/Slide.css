@@ -4,6 +4,13 @@
     border-radius: 10px;
  
 }
+.information {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 @media (max-width: 480px){
     .persone{
         width: 221px;

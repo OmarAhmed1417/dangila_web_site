@@ -12,6 +12,12 @@ button{
 .main{
     height: 600px;
 }
+.paragraph{
+    max-width: 550px;
+}
+.main{
+    gap: 1rem;
+}
 @media (max-width: 480px){
     .text {
         padding: 12px;

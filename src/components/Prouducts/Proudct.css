@@ -9,3 +9,17 @@
     justify-content: center;
     align-items: center;
 }
+.icons{
+
+    gap: 24rem;
+}
+@media (max-width: 480px){
+    .icons{
+        gap: 1rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 992px){
+    .icons{
+        gap: 1rem;
+    }
+}

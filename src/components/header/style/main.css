@@ -33,7 +33,7 @@
 .link2 .last{ 
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 50%;
     height: 100dvh;
     background-color: #DDC0AE;
     padding: 10px;
@@ -51,7 +51,7 @@
  ul{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 71px;
     justify-content: space-around;
 
 }
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: space-around;
 }
-.space-x-9 > :not([hidden]) ~ :not([hidden]) {
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0rem* var(--tw-space-x-reverse));
     margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));
@@ -92,7 +92,7 @@
     .link2 .last{ 
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 50%;
         height: 100dvh;
         background-color: #DDC0AE;
         padding: 10px;
@@ -118,7 +118,7 @@
         display: flex;
         justify-content: space-around;
     }
-    .space-x-9 > :not([hidden]) ~ :not([hidden]) {
+    .space-x-8 > :not([hidden]) ~ :not([hidden]) {
         --tw-space-x-reverse: 0;
         margin-right: calc(0rem* var(--tw-space-x-reverse));
         margin-left: calc(0rem* calc(1 - var(--tw-space-x-reverse)));

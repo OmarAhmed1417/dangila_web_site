@@ -12,6 +12,9 @@ module.exports = {
         'title':'#505050',
         'Customers':'#f8e6cb',
         'Product':'#E7E8D8',
+        'test':"#D6DAC8",
+        "test2":"#503C3C",
+        "head":"#3E3232"
       },
     },
   },

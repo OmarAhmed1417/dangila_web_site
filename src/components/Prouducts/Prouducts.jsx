@@ -50,7 +50,7 @@ const Proudcts = () => {
         <>
         <div className="product bg-Product mt-6 p-9">
             <h2 className='text-brown_color text-4xl text-center'>OUR PRODUCTS</h2>
-    <div className="icons flex justify-around items-center text-center mt-6 pt-11">
+    <div className="icons flex justify-center items-center  text-center mt-6 pt-11">
         <div className="first " ref={(el) => (sectionsRef.current[0] = el)}    style={{
             opacity: 0,
             transform: 'translateY(10px)',
@@ -60,7 +60,7 @@ const Proudcts = () => {
             <FontAwesomeIcon icon={faExplosion} className='text-2xl text-brown_color' />
             </div>
             <div className="texticon">
-                <h3 className='text-lg font-bold pt-3'>Lotion</h3>
+                <h3 className='text-lg font-semibold pt-3'>Lotion</h3>
             </div>
         </div>
 
@@ -73,7 +73,7 @@ const Proudcts = () => {
             <FontAwesomeIcon icon={faDollarSign} className='text-3xl text-brown_color' />
             </div>
             <div className="texticon">
-                <h3 className='text-lg font-bold pt-3'>Cost</h3>
+                <h3 className='text-lg font-semibold pt-3'>Cost</h3>
             </div>
         </div>
 
@@ -86,7 +86,7 @@ const Proudcts = () => {
             <FontAwesomeIcon icon={faLeaf} className='text-2xl text-brown_color' />
             </div>
             <div className="texticon">
-                <h3 className='text-lg font-bold pt-3'>Quality</h3>
+                <h3 className='text-lg font-semibold pt-3'>Quality</h3>
             </div>
         </div>
 
@@ -99,7 +99,7 @@ const Proudcts = () => {
             <FontAwesomeIcon icon={faDroplet} className='text-2xl text-brown_color' />
             </div>
             <div className="texticon">
-                <h3 className='text-lg font-bold pt-3'>Droplet</h3>
+                <h3 className='text-lg font-semibold pt-3'>Droplet</h3>
             </div>
         </div>
 
